@@ -162,7 +162,7 @@ pre {
 }
 
 .content {
-    padding: 2em 3em 0;
+    padding: 2em 3em 100px;
     max-width: 1000px;
     font-size: 110%;
     line-height: 1.45;
@@ -212,9 +212,10 @@ pre {
 }
 
 .footer {
-    text-align: center;
-    padding: 2em 0;
-    font-size: 75%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    padding: 1em 3em 0;
 }
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
@@ -278,6 +279,7 @@ pre {
     .content {
         padding: 1em 1.5em 0;
         font-size: 85%;
+	padding-bottom: 60px;
     }
 
     .cover-img {
