@@ -227,7 +227,7 @@ pre {
     position: absolute;
     bottom: 0;
     height: 100px;
-    padding: 1em 3em 0;
+    padding: 2em;
 }
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
